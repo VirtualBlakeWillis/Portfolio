@@ -28,6 +28,8 @@ const Navbar = () => {
 
           {/* if you have text you want besides your logo it comes here.
           Otherwise delete this if you don't need it. */}
+          <p>
+          </p>
           <img
             src={logotext}
             alt="logo"

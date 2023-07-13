@@ -8,14 +8,10 @@ import {
   html,
   css,
   reactjs,
-  redux,
-  tailwind,
   nodejs,
   git,
   figma,
   docker,
-  postgresql,
-  rubyrails,
   graphql,
   komikult,
   leaderboard,
@@ -85,28 +81,12 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: 'Redux Toolkit',
-    icon: redux,
-  },
-  {
-    name: 'Tailwind CSS',
-    icon: tailwind,
-  },
-  {
     name: 'Node JS',
     icon: nodejs,
   },
   {
-    name: 'Rails',
-    icon: rubyrails,
-  },
-  {
     name: 'graphql',
     icon: graphql,
-  },
-  {
-    name: 'postgresql',
-    icon: postgresql,
   },
   {
     name: 'git',
