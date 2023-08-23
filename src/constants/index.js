@@ -20,6 +20,9 @@ import {
   dcc,
   kelhel,
   microverse,
+  github,
+  resume,
+  linkedin,
 } from '../assets';
 
 export const navLinks = [
@@ -200,4 +203,22 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, projects };
+const contactInfo = [
+  {
+    id: 'linkedin',
+    url: 'https://www.linkedin.com/in/virtual-blake-willis/',
+    icon: linkedin,
+  },
+  {
+    id: 'github',
+    url: 'https://github.com/VirtualBlakeWillis',
+    icon: github,
+  },
+  {
+    id: 'resume',
+    url: 'https://drive.google.com/file/d/1oH82GROfdPouVDuqz16j49p6ajUp2Xp1/view?usp=sharing',
+    icon: resume,
+  }
+];
+
+export { services, technologies, experiences, projects, contactInfo };

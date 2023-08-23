@@ -48,6 +48,8 @@ import bbbb from './projects/bubble-bass-bubble-buster.png';
 import portfolio from './projects/portfolio.png';
 import space from './projects/space-hub.png';
 
+import linkedin from './icons/linkedin.png';
+
 export {
   bwmap,
   nairobi,
@@ -92,4 +94,5 @@ export {
   dcc,
   kelhel,
   microverse,
+  linkedin,
 };

@@ -7,6 +7,7 @@ import {
   Navbar,
   Tech,
   Projects,
+  Links,
 } from './components';
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
 
         <div className="bg-about bg-cover bg-center bg-no-repeat">
           <About />
+
         </div>
 
         <div className="bg-tech bg-cover bg-center bg-no-repeat pb-10">
@@ -40,6 +42,7 @@ const App = () => {
         */}
         <div className="relative z-0">
           <Contact />
+          <Links />
         </div>
       </div>
     </BrowserRouter>
